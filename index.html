@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Transform Your Fitness Journey</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Custom animations */
+        .animate-fadeIn {
+            animation: fadeIn 2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-6 lg:flex lg:items-center lg:justify-between">
+            <div class="lg:w-1/2 animate-fadeIn">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                    Unlock Your Full Potential with <span class="text-yellow-400">FitLife</span>
+                </h1>
+                <p class="mt-6 text-lg md:text-xl">
+                    Your journey towards a healthier and stronger you starts today. Join us to transform your fitness routine and embrace a lifestyle of wellness.
+                </p>
+                <a href="#" class="mt-8 inline-block px-6 py-3 bg-yellow-400 text-indigo-900 font-semibold text-lg rounded-full shadow-lg hover:bg-yellow-500 transition duration-300">
+                    Get Started
+                </a>
+            </div>
+            <div class="lg:w-1/2 mt-12 lg:mt-0">
+                <img src="https://wallpaperaccess.com/full/4722464.jpg" alt="Fitness Motivation" class="rounded-xl shadow-lg object-cover w-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">
+                Why Choose FitLife?
+            </h2>
+            <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-indigo-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.mjGTiPxWqcOE_cN3Ti9DswHaEu&pid=Api&P=0&h=220" alt="Personal Training" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Personal Training</h3>
+                    <p class="text-gray-600">
+                        Get personalized training plans designed to help you meet your goals. Our trainers are with you every step of the way.
+                    </p>
+                </div>
+                <div class="bg-indigo-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.8VXtYBey68kOBKaBydq5TAHaE8&pid=Api&P=0&h=220" alt="Nutrition Plans" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Custom Nutrition Plans</h3>
+                    <p class="text-gray-600">
+                        Achieve your goals faster with custom meal plans crafted by our expert nutritionists. Nutrition is key to your success!
+                    </p>
+                </div>
+                <div class="bg-indigo-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.KYKR7Mewxy6U8SDjijeKFgHaFK&pid=Api&P=0&h=220" alt="Group Workouts" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Group Workouts</h3>
+                    <p class="text-gray-600">
+                        Stay motivated and have fun with group workouts. Push each other to the next level in a supportive environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-gradient-to-r from-purple-50 to-indigo-50 py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">What Our Members Say</h2>
+            <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+                <div class="p-6 rounded-lg shadow-md bg-white">
+                    <p class="text-gray-600 mb-4">
+                        "FitLife has completely transformed my fitness routine! The personal training sessions are top-notch and the trainers are incredibly motivating."
+                    </p>
+                    <p class="font-bold text-indigo-600">- Sarah J.</p>
+                </div>
+                <div class="p-6 rounded-lg shadow-md bg-white">
+                    <p class="text-gray-600 mb-4">
+                        "The group workouts are so much fun, and they really keep me accountable. I love the sense of community at FitLife!"
+                    </p>
+                    <p class="font-bold text-indigo-600">- Mike L.</p>
+                </div>
+                <div class="p-6 rounded-lg shadow-md bg-white">
+                    <p class="text-gray-600 mb-4">
+                        "The nutrition plan helped me lose weight and gain muscle in just a few months. I couldn't be happier with the results!"
+                    </p>
+                    <p class="font-bold text-indigo-600">- Emma W.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="bg-indigo-600 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">
+                Ready to Start Your Fitness Journey?
+            </h2>
+            <p class="text-lg mb-8">
+                Sign up today and become a part of the FitLife community. Together, we’ll achieve your fitness goals!
+            </p>
+            <a href="#" class="inline-block px-8 py-4 bg-yellow-400 text-indigo-900 font-bold text-lg rounded-full shadow-lg hover:bg-yellow-500 transition duration-300">
+                Join Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-sm">&copy; 2024 FitLife. All rights reserved.</p>
+            <p class="text-sm mt-2">Privacy Policy | Terms & Conditions</p>
+        </div>
+    </footer>
+
+</body>
+</html>
